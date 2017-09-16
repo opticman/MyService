@@ -6,12 +6,13 @@
     <!--Image-->
     <ImageView
         android:layout_centerInParent="true"
-        android:src="@drawable/myimage1"
+        android:src="@drawable/myimage"
         android:layout_width="@dimen/imge"
         android:layout_height="@dimen/imge" />
     <!--TextView wrap_content-->
 
     <TextView
+        android:textStyle="bold"
         android:layout_marginTop="@dimen/margin"
         android:layout_marginLeft="@dimen/margin"
         android:textColor="@color/colorPrimaryDark"
@@ -24,7 +25,6 @@
     <!--Red คือ view View-->
     <View
         android:layout_marginTop="100dp"
-        android:background="#fa0202"
         android:layout_width="100dp"
         android:layout_height="50dp"/>
 
@@ -33,8 +33,16 @@
     <View
         android:layout_marginTop="100dp"
         android:layout_marginLeft="100dp"
-        android:background="#f9d90c"
         android:layout_width="100dp"
         android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btnGoToSecond"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:text="Go to second"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
